@@ -1,0 +1,37 @@
+{
+  "name": "backers.online",
+  "version": "1.0.0",
+  "description": "Website for Backers.",
+  "main": "server/index.js",
+  "scripts": {
+    "webpack": "webpack",
+    "start": "babel-node server/index.js --presets env",
+    "dev": "webpack && yarn start"
+  },
+  "repository": "https://github.com/BackersOnline/Site.git",
+  "author": "Nic Bonetto <nick.bonetto@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "chai": "^4.1.2",
+    "css-loader": "^0.28.7",
+    "dotenv": "^4.0.0",
+    "mocha": "^4.0.1",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0"
+  }
+}
