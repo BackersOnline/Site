@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300,400');
+
+.product-icon {
+  height: 80px;
+  width: 80px;
+}
+
+.product-description {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 60px;
+}
+
+.product-headers {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  letter-spacing: 1px;
+}
+
+.icon-border {
+  border-radius: 50%;
+  border: 3px solid black;
+  height: 80px;
+  width: 80px;
+  text-align: center;
+  margin-left: 12vw;
+  > span {
+    position: relative;
+    top: calc(50% - 30px);
+    margin-left: -0.2vw;
+  }
+}
+
+.bitcoin-icon-border {
+    border-radius: 50%;
+    border: 3px solid white;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    margin-top: -7vh;
+    > span {
+      position: relative;
+      top: calc(50% - 16px);
+    }
+}
+
+.glyphicon-user {
+  font-size: 50px;
+}
+
+.glyphicon-resize-horizontal {
+  font-size: 50px;
+}
+
+.glyphicon-object-align-vertical {
+  font-size: 50px;
+}
+
+.glyphicon-usd {
+  font-size: 30px;
+}
+
+.glyphicon-bitcoin {
+  font-size: 30px;
+}
+
+.glyphicon-certificate {
+  font-size: 30px;
+}
+
+.number-buffer {
+  margin-left: 2vh;
+  margin-bottom: 4vh;
+}
+
+.inline-div {
+  display: inline-block;
+}
+
+#intro-page {
+  background-image: linear-gradient(to right, #4b74b3, #4f4f8d);
+  background-size: cover;
+  height: 85vh;
+  width: 100vw;
+}
+
+#description {
+  height: 70vh;
+  width: 100vw;
+}
+
+#bitcoin::before {
+  content: '';
+  background-image: url('../images/bitcoin.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+#bitcoin {
+  height: 80vh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+  color: white;
+}
+
+#intro-header {
+  margin-top: 30vh;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+#description-header {
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+}
