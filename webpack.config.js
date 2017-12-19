@@ -2,9 +2,9 @@ var webpack = require('webpack')
 var path = require('path')
 
 module.exports = {
-  entry: 'client/app.jsx',
+  entry: './client/app.jsx',
   output: {
-    path: path.resolve(__dirname + 'server/static/build'),
+    path: path.resolve(__dirname, 'build'),
     filename: 'app.bundle.js'
   },
   module: {
@@ -20,6 +20,10 @@ module.exports = {
       {
         test: /\.scss$/,
         use: ['style-loader', 'css-loader', 'sass-loader']
+      },
+      {
+        test: /\.(png|jpg)$/,
+        loader: 'url-loader'
       }
     ]
   }
