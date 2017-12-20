@@ -99,6 +99,7 @@ ul {
 
   > a:hover {
     color: rgba(0, 0, 0, 1);
+    text-decoration: none;
   }
 }
 
@@ -202,7 +203,6 @@ ul {
   > li:hover {
     color: rgba(0, 0, 0, 1);
     cursor: pointer;
-    text-decoration: underline;
   }
 }
 
